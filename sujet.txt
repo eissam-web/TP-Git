@@ -1,0 +1,35 @@
+.
+
+Prise en main rapide
+
+Github dispose d’un outil permettant la prise en main rapide de certaines commandes git site.
+
+    Explorer visualizing-git et learn git branching
+
+Mise en place
+
+    Créez un compte sur GitHub pour chaque utilisateur.
+    Configurez votre client git pour utiliser cet identifiant
+
+Premiers pas
+
+    Dans github, créez un premier dépôt nommé ‘TP-Git’ et le cloner sur votre machine de travail
+    Ajoutez un fichier authors.html au dépôt de travail, contenant un titre et une liste avec votre prénom.
+    Verifiez l’état de votre dépôt (status). (il doit mentionner l’ajout d’un nouveau fichier dans votre copie de travail)
+    Indexez le fichier créé (le passer en staging). Vérifiez que les modifications ont été placées dans l’index. Puis observez les différences (git diff …) entre l’index et la dernière version du dépôt.
+    Commitez votre modification. N’oubliez pas le message de commit.
+    Vérifiez l’état de votre dépôt.
+    Affichez la liste des changements effectués dans le dépôt (log). Notez le numéro (le sha1) du dernier commit.
+
+Le site de streaming
+
+Vous allez maintenant créer votre site de streaming en utilisant le versionning Git durant le developpement.
+
+    Cherchez sur le web un template html et css gratuit, opensource, simple, léger et joli pour servir de base à votre site de streaming. Si vous êtes plus à l’aise avec, vous pouvez aussi utiliser un framework comme foundation ou bootstrap …
+    Ajoutez votre template au dépôt. Puis modifier/supprimer/ajouter des fichiers jusqu’à obtenir une base de site présentant le nom et la miniature de deux films. Chaque commit doit maintenir le dépot dans un état cohérent, (ajouter un fichier, supprimer du contenu non utilisé, modifier un fichier) et vous devez effectuer au moins 5 modifications (5 commits).
+        profitez de chaque étape pour essayer les commandes:
+        git diff avant un add
+        git diff –cached après un add
+    Affichez la liste des changements. Essayez des paramètres d’affichage différents (–graph ou –oneline).
+    Quand vous êtes satisfait de votre base de travail, poussez les modifications sur le dépôt distant.
+
