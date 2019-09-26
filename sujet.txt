@@ -32,4 +32,4 @@ Vous allez maintenant créer votre site de streaming en utilisant le versionning
         git diff –cached après un add
     Affichez la liste des changements. Essayez des paramètres d’affichage différents (–graph ou –oneline).
     Quand vous êtes satisfait de votre base de travail, poussez les modifications sur le dépôt distant.
-
+FIN
